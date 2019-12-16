@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+       <EditText
+           android:id="@+id/editText3"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_marginBottom="8dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="8dp"
+           android:background="@drawable/edit_text_background"
+           android:ems="10"
+           android:gravity="center"
+           android:hint="District"
+           android:inputType="textEmailAddress"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.802" />
+
+
+       <EditText
+           android:id="@+id/editText1"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_marginBottom="8dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="8dp"
+           android:background="@drawable/edit_text_background"
+           android:ems="10"
+           android:gravity="center"
+           android:hint="KnownWork"
+           android:inputType="textEmailAddress"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.368" />
+
+       <EditText
+           android:id="@+id/editText2"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_marginBottom="8dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="8dp"
+           android:background="@drawable/edit_text_background"
+           android:ems="10"
+           android:gravity="center"
+           android:hint="PhoneNumber"
+           android:inputType="textEmailAddress"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.215" />
+
+       <EditText
+           android:id="@+id/editText"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_marginBottom="8dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="8dp"
+           android:background="@drawable/edit_text_background"
+           android:ems="10"
+           android:gravity="center"
+           android:hint="Name"
+           android:inputType="textEmailAddress"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.053" />
+
+       <EditText
+           android:id="@+id/editText4"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_marginBottom="8dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="8dp"
+           android:background="@drawable/edit_text_background"
+           android:ems="10"
+           android:gravity="center"
+           android:hint="City"
+
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.665" />
+
+       <EditText
+           android:id="@+id/editText5"
+           android:layout_width="250dp"
+           android:layout_height="50dp"
+           android:layout_marginBottom="8dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="8dp"
+           android:background="@drawable/edit_text_background"
+           android:ems="10"
+           android:gravity="center"
+           android:hint="Educational Qualification"
+           android:inputType="textEmailAddress"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.519" />
+
+       <Button
+           android:id="@+id/submbt"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="8dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="8dp"
+           android:background="@drawable/button_background_design"
+           android:text="Submit"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.457"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintVertical_bias="0.95"
+           tools:ignore="MissingConstraints" />
+
+
+
+   </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Setting"
+        app:showAsAction="never"
+        android:id="@+id/set"/>
+    <item android:title="About Us"
+        app:showAsAction="never"
+        android:id="@+id/abo"/>
+    <item android:title="Feedback"
+        app:showAsAction="never"
+        android:id="@+id/fee"/>
+    <item android:title="Help"
+        app:showAsAction="never"
+        android:id="@+id/hel"/>
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/fb"
+
+                android:title="Faacebook" />
+            <item
+                android:id="@+id/gplus"
+
+                android:title="Google +" />
+            <item
+                android:id="@+id/twitter"
+
+                android:title="Twitter" />
+            <item
+                android:id="@+id/youtube"
+
+                android:title="Youtube" />
+            <item
+                android:id="@+id/github"
+                
+                android:title="Github" />
+        </menu>
+    </item>
+</menu>
