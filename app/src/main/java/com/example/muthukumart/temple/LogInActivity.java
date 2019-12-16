@@ -71,10 +71,10 @@ public class LogInActivity extends AppCompatActivity{
 
 
               if (TextUtils.isEmpty(email)) {
-                  Toast.makeText(getApplicationContext(), "Please enter mail id", Toast.LENGTH_SHORT).show();
+                  Toast.makeText(getApplicationContext(), "Please enter mail id ", Toast.LENGTH_SHORT).show();
               }
               if (TextUtils.isEmpty(password)) {
-                  Toast.makeText(getApplicationContext(), "Please enter password", Toast.LENGTH_SHORT).show();
+                  Toast.makeText(getApplicationContext(), "Please enter password ", Toast.LENGTH_SHORT).show();
               }
 
                 progressdialog.setMessage("Logging Please Wait...");
